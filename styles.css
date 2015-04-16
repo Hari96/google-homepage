@@ -1,0 +1,152 @@
+html {
+	height: 100%;
+}
+body {
+	width: 94%;
+	height: 100%;
+}
+#wrapper {
+	position: relative;
+	height: auto !important;
+	min-height: 100%;
+	width: 99%;
+	
+}
+
+a {
+	text-decoration: none;
+}
+header {
+	width: 97%;
+	clear: both;
+}
+header #nav {
+	display: inline;
+	float : left;
+	width: 100%;
+	list-style: none;
+	background: black;
+	height: 25px;
+}
+
+header #nav li {
+    margin-right: 6px;
+	float: left;
+	position: relative;
+}
+header #nav li:hover {
+	background: gray;
+}
+
+header #nav a {
+	display: block;
+	
+	margin-top: 4px;
+}
+header #nav li a {
+	color: #dddddd;
+}
+#nav #search a {
+	color: white;
+}
+header #nav ul {
+	list-style: none;
+    position: absolute;
+    left:-9999px;
+}
+header #nav ul li{
+    padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float: none;
+}
+header #nav ul li a {
+	color: blue;
+}
+header #nav li:hover ul{ /* Display the dropdown on hover */
+    left: -40px; /* Bring back on-screen when needed */
+}
+#last {
+	margin-left: 62%;
+}
+#sinput {
+	clear: both;
+	margin: 40px auto 5px;
+	text-align: center;
+	width: 590px;
+	height: 280px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#sinput input[type="search"] {
+	width: 580px;
+	height: 30px;
+	margin-bottom: 12px;
+	border: 1px solid gray;
+}
+#sinput input[type="submit"] {
+	width: 116px;
+	margin: 0 10px 5px 10px;
+	height: 30px;
+}
+
+aside {
+	width: 250px;
+	float: right;
+	border: 1px solid #dcdcdc;
+	background: #fff;
+	clear: both;
+}
+aside #chrometext p {
+	font-size: .8em;
+	line-height: .9;
+	width: 150px;
+	display: block;
+	margin-bottom: 0;
+
+}
+aside img {
+	width: 40px;
+	float: left;
+	margin: 22px 6px;
+}
+aside #chrometext {
+    float: left;
+    padding: 3px;
+}
+aside #chrometext a {
+	margin-top: 7px;
+	width: 178px;
+	display: block;
+	background: #4d90fe;
+	color: white;
+	text-align: center;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: .9em;
+	height: 18px;
+	padding: 3px;
+}
+
+footer {
+
+	position: absolute;
+	bottom: 2px;
+	height: 40px;
+	width: 96%;
+}
+footer li {
+	list-style: none;
+}
+footer #left {
+	float: left;
+}
+footer #left li {
+	float: left;
+	padding: 0 12px;
+}
+footer #right {
+	float: right;
+}
+footer #right li {
+	float: left;
+	padding: 0 12px;
+}
